@@ -1,3 +1,27 @@
-.footer {
+@import url(./__logo/footer__logo.css);
+@import url(./__content/footer__content.css);
+@import url(./__main/footer__main.css);
+@import url(./__partners/footer__partners.css);
+@import url(./__copyrights/footer__copyrights.css);
+@import url(./__address/footer__address.css);
+@import url(./__address-title/footer__address-title.css);
+@import url(./__address-text/footer__address-text.css);
+@import url(./__lists/footer__lists.css);
+@import url(./__united-lists/footer__united-lists.css);
+@import url(./__list-item/footer__list-item.css);
+@import url(./__list/footer__list.css);
+@import url(./__partners-item/footer__partners-item.css);
+@import url(./__partners-list/footer__partners-list.css);
+@import url(./__partners-text/footer__partners-text.css);
+@import url(./__partners-title/footer__partners-title.css);
+@import url(./__copyrights-group/footer__copyrights-group.css);
+@import url(./__copyrights-link/footer__copyrights-link.css);
+@import url(./__copyrights-text/footer__copyrights-text.css);
 
+.footer {
+  display: flex;
+  flex-direction:column;
+  background-color: #ECEBE8;
+  width: 414px;
+  box-sizing: border-box;
 }

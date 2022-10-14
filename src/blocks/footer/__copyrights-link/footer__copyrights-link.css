@@ -1,3 +1,9 @@
 .footer__copyrights-link {
-
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px; /* identical to box height, or 121% */
+  text-decoration-line: underline;
+  color: #242424;
 }

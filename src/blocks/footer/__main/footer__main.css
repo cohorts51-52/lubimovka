@@ -1,3 +1,9 @@
 .footer__main {
-
+  grid-area: a;
+  width: 100%;
+  padding-left: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 56px;
 }

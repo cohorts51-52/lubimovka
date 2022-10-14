@@ -1,3 +1,7 @@
 .footer__content {
-
+  display: grid;
+  grid-template:
+  "a"
+  "b"
+  "c";
 }
