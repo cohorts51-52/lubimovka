@@ -1,5 +1,8 @@
 @import url("./__container/page__container.css");
 
 .page {
-
+  --main-text-color: #242424;
+  --main-white-color: #ffffff;
+  --main-bg-color: #ECEBE8;
+  --main-accent-color: #B7C09D;
 }
