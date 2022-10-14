@@ -167,7 +167,7 @@
       <section class="partnership"></section>
     </main>
     <footer class="footer">
-      <img src="" alt="логотип" class="footer__logo">
+      <img src="<%=require('./images/footer__logo.svg')%>" alt="логотип" class="footer__logo">
 
       <div class="footer__content">
 
@@ -179,22 +179,25 @@
           </div>
 
           <div class="footer__lists">
-            <ul class="footer__list footer__list_one">
-              <li class="footer__list-item">Любимовка</li>
-              <li class="footer__list-item">Афиша</li>
-              <li class="footer__list-item">Библиотека</li>
-              <li class="footer__list-item">Блог</li>
-              <li class="footer__list-item">Новости</li>
-            </ul>
-            <ul class="footer__list footer__list_two">
-              <li class="footer__list-item">О фестивале</li>
-              <li class="footer__list-item">Организаторы</li>
-              <li class="footer__list-item">История</li>
-              <li class="footer__list-item">Контакты</li>
-              <li class="footer__list-item">Для прессы</li>
-            </ul>
+            <div class="footer__united-lists">
+              <ul class="footer__list footer__list_one">
+                <li class="footer__list-item">Любимовка</li>
+                <li class="footer__list-item">Афиша</li>
+                <li class="footer__list-item">Библиотека</li>
+                <li class="footer__list-item">Блог</li>
+                <li class="footer__list-item">Новости</li>
+              </ul>
+              <ul class="footer__list footer__list_two">
+                <li class="footer__list-item">О фестивале</li>
+                <li class="footer__list-item">Организаторы</li>
+                <li class="footer__list-item">История</li>
+                <li class="footer__list-item">Контакты</li>
+                <li class="footer__list-item">Для прессы</li>
+              </ul>
+            </div>
+
             <ul class="footer__list footer__list_three">
-              <li class="footer__list-item">Для прессы</li>
+              <li class="footer__list-item">Все проекты</li>
               <li class="footer__list-item">Любимовка.Ещё</li>
               <li class="footer__list-item">Спектакли</li>
               <li class="footer__list-item">Сборник Любимовка.Пьесы</li>
@@ -209,18 +212,18 @@
           <h3 class="footer__partners-title">Генеральные партнеры</h3>
           <ul class="footer__partners-list">
             <li class="footer__partners-item">
-              <a class="footer__partners-link" href=""><img src="" alt=""></a>
+              <a class="footer__partners-link" href=""><img src="<%=require('./images/partner_1.svg')%>" alt=""></a>
               <p class="footer__partners-text">Генеральный партнёр</p>
             </li>
             <li class="footer__partners-item">
-              <a class="footer__partners-link" href=""><img src="" alt=""></a>
+              <a class="footer__partners-link" href=""><img src="<%=require('./images/partner_2.svg')%>" alt=""></a>
             </li>
             <li class="footer__partners-item">
-              <a class="footer__partners-link" href=""><img src="" alt=""></a>
+              <a class="footer__partners-link" href=""><img src="<%=require('./images/partner_3.svg')%>" alt=""></a>
               <p class="footer__partners-text">Онлайн-трансляции</p>
             </li>
             <li class="footer__partners-item">
-              <a class="footer__partners-link" href=""><img src="" alt=""></a>
+              <a class="footer__partners-link" href=""><img src="<%=require('./images/partner_4.svg')%>" alt=""></a>
             </li>
           </ul>
         </div>
