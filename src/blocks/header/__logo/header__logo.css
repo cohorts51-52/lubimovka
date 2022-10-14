@@ -1,0 +1,12 @@
+.header__logo {
+  display: block;
+  width: 43px;
+  height: 35px;
+  background-image: url('../../../images/headerLogo.svg');
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.header__logo:hover {
+  opacity: .8;
+}
