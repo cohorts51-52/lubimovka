@@ -1,0 +1,13 @@
+.header__social-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #242424;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: lowercase;
+  transition: all .6s ease-in-out;
+}
+
+.header__social-link:hover {
+  opacity: .7;
+}
