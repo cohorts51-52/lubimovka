@@ -1,0 +1,27 @@
+@import url("./__title/lubimovka-more__title.css");
+@import url("./__subtitle/lubimovka-more__subtitle.css");
+@import url("./__image/lubimovka-more__image.css");
+
+.lubimovka-more {
+  display: grid;
+  grid-template-rows: 40px 144px 450px;
+  grid-template-areas:
+  "title"
+  "subtitle"
+  "image";
+  justify-content: center;
+  row-gap: 36px;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .lubimovka-more {
+    grid-template-areas:
+    ". title"
+    "subtitle image";
+    grid-template-columns: repeat(2, 720px);
+    grid-template-rows: 199px 445px;
+    row-gap: 65px;
+    column-gap: 120px;
+  }
+}

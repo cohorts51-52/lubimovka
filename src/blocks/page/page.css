@@ -1,5 +1,17 @@
 @import url("./__container/page__container.css");
 
 .page {
-
+  --main-text-color: #242424;
+  --main-white-color: #ffffff;
+  --main-bg-color: #ECEBE8;
+  --main-accent-color: #B7C09D;
+  font-family: 'FormularLight', arial, sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }

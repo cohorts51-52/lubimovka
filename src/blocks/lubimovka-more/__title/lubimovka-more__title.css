@@ -1,0 +1,17 @@
+.lubimovka-more__title {
+  font-family: 'Neue Machina';
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  max-width: 323px;
+  margin: 0;
+  padding: 0 0 0 24px;
+  grid-area: title;
+}
+
+@media screen and (min-width: 1024px) {
+  .lubimovka-more__title {
+    font-size: 72px;
+    line-height: 70px;
+  }
+}
