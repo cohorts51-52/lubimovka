@@ -10,17 +10,3 @@
 @import url("../blocks/footer/footer.css");
 
 @import url("../blocks/button-link/button-link.css");
-@import url("../blocks/button-link/_arrow/button-link_arrow.css");
-@import url('../blocks/button-link/_arrow/_left/button-link_arrow_left.css');
-@import url('../blocks/button-link/_arrow/_right/button-link_arrow_right.css');
-
-@import url("../blocks/header/__logo/header__logo.css");
-@import url('../blocks/header/__items/header__items.css');
-@import url("../blocks/header/__menu/header__menu.css");
-@import url("../blocks/header/__menu-list/header__menu-list.css");
-@import url("../blocks/header/__menu-link/header__menu-link.css");
-@import url("../blocks/header/__social-list/header__social-list.css");
-@import url("../blocks/header/__social-link/header__social-link.css");
-@import url("../blocks/header/__button/header__button.css");
-@import url("..//blocks/header/__menu-mobile/header__menu-mobile.css");
-@import url("../blocks/button-link/_place/_header/button-link_place_header.css");

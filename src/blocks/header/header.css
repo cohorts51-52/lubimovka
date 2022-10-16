@@ -1,3 +1,13 @@
+@import url("../blocks/header/__logo/header__logo.css");
+@import url('../blocks/header/__items/header__items.css');
+@import url("../blocks/header/__menu/header__menu.css");
+@import url("../blocks/header/__menu-list/header__menu-list.css");
+@import url("../blocks/header/__menu-link/header__menu-link.css");
+@import url("../blocks/header/__social-list/header__social-list.css");
+@import url("../blocks/header/__social-link/header__social-link.css");
+@import url("../blocks/header/__button/header__button.css");
+@import url("..//blocks/header/__menu-mobile/header__menu-mobile.css");
+
 .header {
   display: flex;
   justify-content: space-between;
