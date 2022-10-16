@@ -22,12 +22,12 @@
 
 .header__button:hover {
   opacity: .7;
-  border-left: 2px solid #242424;
-  border-right: 2px solid #242424;
+  border-left: 2px solid var(--main-text-color);
+  border-right: 2px solid var(--main-text-color);
   border-radius: 50%;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1170px) {
   .header__button {
     padding: 3px;
   }

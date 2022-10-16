@@ -13,7 +13,7 @@
   }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1040px) {
   .header__items {
     justify-content: space-evenly;
   }
