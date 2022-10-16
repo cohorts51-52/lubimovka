@@ -3,13 +3,13 @@
   transition: all .6s ease-in-out;
   min-width: 72px;
   height: 72px;
-  background-color: #242424;
+  background-color: var(--main-text-color);
   background-image: url('../../../images/headerIconMenuBurger.svg');
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1040px) {
   .header__menu-mobile {
     display: block;
   }

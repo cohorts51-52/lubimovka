@@ -1,14 +1,14 @@
-.button-link_arrow_right{
+.button-link_arrow_right {
   padding: 9px 15px 9px 25px;
-  border-bottom: 1px solid #242424;
-  border-left: 1px solid #242424;
+  border-bottom: 1px solid var(--main-text-color);
+  border-left: 1px solid var(--main-text-color);
   background-position: 100% 0%;
   background-repeat: no-repeat;
   background-size: 0% 100%;
 }
 
 .button-link_arrow_right:before {
-  transform:rotate(180deg);
-  top:23%;
+  transform: rotate(180deg);
+  top: 23%;
   left: 0;
 }

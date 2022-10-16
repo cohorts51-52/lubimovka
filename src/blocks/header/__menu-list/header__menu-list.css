@@ -1,6 +1,6 @@
 .header__menu-list {
   box-sizing: border-box;
-  gap: 26px;
+  gap: 17px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1439px) {
   .header__menu-list {
     gap: 0;
   }
