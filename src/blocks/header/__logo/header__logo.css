@@ -1,8 +1,10 @@
 .header__logo {
-  display: block;
-  width: 43px;
+  display: inline-block;
+
+  min-width: 43px;
   height: 35px;
   background-image: url('../../../images/headerLogo.svg');
+  background-repeat: no-repeat;
   cursor: pointer;
   transition: all .5s ease-in-out;
 }

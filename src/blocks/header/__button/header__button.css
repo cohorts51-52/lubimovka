@@ -1,7 +1,42 @@
 .header__button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
   max-width: 164px;
-  padding: 0;
+  padding: 3px 8.5px;
   background-color: inherit;
   border: none;
   cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  transition: all .6s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.header__button:before {
+  content: url('../../../images/headerIconPlus.svg');
+  height: 26px;
+  padding-right: 10px;
+}
+
+.header__button:hover {
+  opacity: .7;
+  border-left: 2px solid #242424;
+  border-right: 2px solid #242424;
+  border-radius: 50%;
+}
+
+@media (max-width: 1060px) {
+  .header__button {
+    padding: 3px;
+  }
+
+  .header__button:before {
+    padding-right: 0;
+  }
+
+  .header__button:hover {
+    border-radius: 30%;
+  }
 }
