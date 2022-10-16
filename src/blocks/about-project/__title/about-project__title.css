@@ -1,0 +1,18 @@
+.about-project__title {
+  box-sizing: border-box;
+  margin-top: 56px;
+  margin-left: 24px;
+}
+
+@media screen and (min-width: 820px) {
+  .about-project__title {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-project__title {
+    margin-top: 79px;
+    margin-left: 360px;
+  }
+}
