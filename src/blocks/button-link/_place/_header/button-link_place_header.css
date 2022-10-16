@@ -1,10 +1,10 @@
-.button-link_place_header {
+a.button-link_place_header {
   position: absolute;
   top: 95px;
 }
 
 @media (max-width: 600px) {
-  .button-link_place_header {
+  a.button-link_place_header {
     position: relative;
     top: 0;
   }
