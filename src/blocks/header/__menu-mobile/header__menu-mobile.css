@@ -1,0 +1,26 @@
+.header__menu-mobile {
+  display: none;
+  transition: all .6s ease-in-out;
+  min-width: 72px;
+  height: 72px;
+  background-color: #242424;
+  background-image: url('../../../images/headerIconMenuBurger.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+@media (max-width: 940px) {
+  .header__menu-mobile {
+    display: block;
+  }
+
+  .header__menu-mobile:hover {
+    opacity: .7;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__menu-mobile {
+    margin-left: auto;
+  }
+}

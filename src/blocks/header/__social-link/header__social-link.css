@@ -1,8 +1,9 @@
 .header__social-link {
   text-decoration: none;
   cursor: pointer;
-  color: #242424;
+  color: var(--main-text-color);
   font-size: 16px;
+  margin: 0 5px;
   line-height: 18px;
   text-transform: lowercase;
   transition: all .6s ease-in-out;
@@ -10,4 +11,10 @@
 
 .header__social-link:hover {
   opacity: .7;
+}
+
+@media (max-width: 1060px) {
+  .header__social-link {
+    margin: 0 5px 0 0;
+  }
 }
