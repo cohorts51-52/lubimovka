@@ -1,0 +1,7 @@
+@import url('./__name/card-person__name.css');
+@import url('./__about/card-person__about.css');
+
+.card-person {
+  box-sizing: border-box;
+  max-width: 210px;
+}
