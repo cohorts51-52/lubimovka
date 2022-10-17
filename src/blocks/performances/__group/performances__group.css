@@ -1,9 +1,9 @@
-.plays__group {
+.performances__group {
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 768px) {
-  .plays__group {
+  .performances__group {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;

@@ -1,0 +1,10 @@
+.button-link_arrow::before{
+  position: absolute;
+  content: url('../../../images/Union.svg');
+  filter: brightness(0) invert(0);
+  transition: all .5s ease-in;
+}
+
+.button-link_arrow:hover::before {
+  filter: brightness(0) invert(1);
+}

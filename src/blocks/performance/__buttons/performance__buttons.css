@@ -1,9 +1,9 @@
-.play__buttons {
+.performance__buttons {
   display: flex;
   gap: 26px;
 }
 @media screen and (min-width: 768px) {
-  .play__buttons {
+  .performance__buttons {
     flex-direction: column;
     gap: 16px;
     margin-left: 152px;
