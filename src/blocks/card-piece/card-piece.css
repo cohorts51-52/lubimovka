@@ -1,0 +1,15 @@
+@import url('./__background/card-piece__background.css');
+@import url('./__title/card-piece__title.css');
+@import url('./__playwriter/card-piece__playwriter.css');
+@import url('./__place/card-piece__place.css');
+@import url('./__button/card-piece__button.css');
+
+.card-piece {
+  min-width: 240px;
+}
+
+@media (max-width:1000px) {
+  .card-piece {
+    min-width: 244px;
+  }
+}

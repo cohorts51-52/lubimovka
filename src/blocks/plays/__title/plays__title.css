@@ -1,0 +1,21 @@
+.plays__title {
+  display: inline-block;
+  width: 358px;
+  margin: 93px 0 0 23%;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: var(--main-text-color);
+}
+
+@media (max-width:1000px) {
+  .plays__title {
+    font-size: 28px;
+    line-height: 32px;
+    margin: 100px 0 0 0;
+    padding: 0;
+  }
+}

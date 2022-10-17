@@ -1,0 +1,14 @@
+@import url('./__cards/plays__cards.css');
+@import url('./__title/plays__title.css');
+
+.plays {
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+@media (max-width:1000px) {
+  .plays {
+    margin: 0 auto;
+    padding: 0 0 0 24px;
+  }
+}

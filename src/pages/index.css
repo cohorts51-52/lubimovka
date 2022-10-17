@@ -13,3 +13,6 @@
 @import url("../blocks/button-link/_arrow/button-link_arrow.css");
 @import url('../blocks/button-link/_arrow/_left/button-link_arrow_left.css');
 @import url('../blocks/button-link/_arrow/_right/button-link_arrow_right.css');
+
+@import url('../blocks/plays/plays.css');
+@import url('../blocks/card-piece/card-piece.css');
