@@ -16,7 +16,7 @@
   opacity: .7;
   border-left: 2px solid var(--main-text-color);
   border-right: 2px solid var(--main-text-color);
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 @media (max-width: 1170px) {
