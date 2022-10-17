@@ -1,0 +1,14 @@
+.play__title {
+  margin: 16px 0 0;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+}
+@media screen and (min-width: 768px) {
+  .play__title {
+    margin: 4px 0 0;
+  }
+}

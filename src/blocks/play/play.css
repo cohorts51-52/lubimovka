@@ -1,0 +1,17 @@
+.play {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-bottom: 1px solid #242424;
+}
+.play:last-child {
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .play {
+    gap: 16px;
+    border-right: 1px solid #242424;
+    border-bottom: none;
+  }
+}

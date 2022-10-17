@@ -2,4 +2,14 @@
 @import url("../vendor/fonts/fonts.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
+@import url("../blocks/plays/plays.css");
+@import url("../blocks/plays/__heading/plays__heading.css");
+@import url("../blocks/plays/__group/plays__group.css");
+@import url("../blocks/play/play.css");
+@import url("../blocks/play/__overview/play__overview.css");
+@import url("../blocks/play/__setting/play__setting.css");
+@import url("../blocks/play/__description/play__description.css");
+@import url("../blocks/play/__title/play__title.css");
+@import url("../blocks/play/__read/play__read.css");
+@import url("../blocks/play/__buttons/play__buttons.css");
 @import url("../blocks/footer/footer.css");
