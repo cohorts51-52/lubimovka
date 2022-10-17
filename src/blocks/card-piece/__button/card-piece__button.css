@@ -1,0 +1,53 @@
+.card-piece__button {
+  display: none;
+}
+
+@media (max-width:1000px) {
+  .card-piece__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    min-height: 55px;
+    padding: 0 19px 0 16px;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--main-text-color);
+    transition: all .5s ease-in;
+    background-image: none;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    border-top: 1px solid var(--main-text-color);
+  }
+
+  .card-piece__button:hover {
+    color: white;
+    background-size: 100% 100%;
+    background-image: linear-gradient(#242424, #242424);
+  }
+
+  .card-piece__button:first-of-type::after {
+    transform: rotate(140deg);
+    content: url('../../../images/Union.svg');
+    filter: brightness(0) invert(0);
+    transition: all .5s ease-in;
+  }
+
+  .card-piece__button:first-of-type:hover::after {
+    filter: brightness(0) invert(1);
+  }
+
+  .card-piece__button:last-of-type::after {
+    transform: rotate(-90deg);
+    content: url('../../../images/Union.svg');
+    filter: brightness(0) invert(0);
+    transition: all .5s ease-in;
+  }
+
+  .card-piece__button:last-of-type:hover::after {
+    filter: brightness(0) invert(1);
+  }
+}

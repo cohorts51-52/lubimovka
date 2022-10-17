@@ -1,0 +1,13 @@
+.card-piece__place {
+  display: inline-block;
+  max-width: 155px;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--main-text-color);
+}
+
+@media (max-width:1000px) {
+  .card-piece__place {
+    margin-top: 10px;
+  }
+}

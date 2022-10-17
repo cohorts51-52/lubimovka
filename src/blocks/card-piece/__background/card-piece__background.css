@@ -1,0 +1,15 @@
+.card-piece__background {
+  box-sizing: border-box;
+  padding: 24px;
+  min-height: 300px;
+  background-color: var(--main-accent-color);
+}
+
+@media (max-width:1000px) {
+  .card-piece__background {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    min-height: 342px;
+  }
+}
