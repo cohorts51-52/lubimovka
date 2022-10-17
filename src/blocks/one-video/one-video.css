@@ -1,3 +1,5 @@
 .one-video {
+  max-width: 716px;
+  margin: 0 auto;
   padding: 0 24px;
 }

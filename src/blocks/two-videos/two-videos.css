@@ -1,3 +1,5 @@
 .two-videos {
   overflow: hidden;
+  margin: 0 auto;
+  max-width: 900px;
 }
