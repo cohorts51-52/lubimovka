@@ -13,8 +13,6 @@
 <body class="page">
   <div class="page__container">
     <header class="header">
-      <a class="button-link button-link_arrow button-link_arrow_left">ПРОЕКТЫ</a>
-      <a class="button-link button-link_arrow button-link_arrow_right">О СПЕКТАКЛЕ</a>
     </header>
     <main class="content">
       <section class="lubimovka-more"></section>
@@ -23,7 +21,31 @@
       <section class="photos"></section>
       <section class="performances"></section>
       <section class="plays"></section>
-      <section class="persons"></section>
+      <section class="persons">
+        <h2 class="persons__title">Заголовок блока с персонами</h2>
+        <ul class="persons__list cards-persons">
+          <li class="card-person">
+            <img src="<%=require('./images/sectionPersonsImageOne.png') %>" alt="Тереза Шимчак">
+            <h3 class="card-person__name">Тереза Шимчак</h3>
+            <span class="card-person__about">Драматург, сценарист, преподаватель</span>
+          </li>
+          <li class="card-person">
+            <img src="<%=require('./images/sectionPersonsImageTwo.png') %>" alt="Тереза Шимчак">
+            <h3 class="card-person__name">Тереза Шимчак</h3>
+            <span class="card-person__about">Драматург, сценарист, преподаватель</span>
+          </li>
+          <li class="card-person">
+            <img src="<%=require('./images/sectionPersonsImageThree.png') %>" alt="Тереза Шимчак">
+            <h3 class="card-person__name">Тереза Шимчак</h3>
+            <span class="card-person__about">Драматург, сценарист, преподаватель</span>
+          </li>
+          <li class="card-person">
+            <img src="<%=require('./images/sectionPersonsImageOne.png') %>" alt="Тереза Шимчак">
+            <h3 class="card-person__name">Тереза Шимчак</h3>
+            <span class="card-person__about">Драматург, сценарист, преподаватель</span>
+          </li>
+        </ul>
+      </section>
       <section class="button-or-link"></section>
       <section class="partnership"></section>
     </main>
