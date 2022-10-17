@@ -1,0 +1,8 @@
+.performance__image {
+  max-height: 123px;
+}
+@media screen and (min-width: 768px) {
+  .performance__image {
+    max-height: 160px;
+  }
+}
