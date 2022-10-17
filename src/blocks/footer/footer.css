@@ -17,6 +17,7 @@
 @import url(./__copyrights-group/footer__copyrights-group.css);
 @import url(./__copyrights-link/footer__copyrights-link.css);
 @import url(./__copyrights-text/footer__copyrights-text.css);
+@import url(./__image/footer__image.css);
 
 .footer {
   display: flex;

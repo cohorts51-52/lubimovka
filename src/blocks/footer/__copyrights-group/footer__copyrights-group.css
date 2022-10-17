@@ -1,3 +1,21 @@
 .footer__copyrights-group {
+  display: flex;
+  flex-direction: column;
+}
 
+.footer__copyrights-group_one {
+  gap: 10px;
+  margin-bottom: 59px;
+}
+
+.footer__copyrights-group_two {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+
+.footer__copyrights-group_subgroup {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,8 +1,8 @@
 .footer__partners-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(2, 160px);
-  grid-template-rows: repeat(2, 105px);
+  grid-template-columns: repeat(2, 170px);
+  grid-template-rows: repeat(2, 108px);
   align-items: center;
   justify-items: center;
   margin-block-start: 0;
