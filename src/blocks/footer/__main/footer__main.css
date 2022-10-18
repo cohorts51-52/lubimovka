@@ -1,9 +1,18 @@
 .footer__main {
   grid-area: a;
-  width: 100%;
   padding-left: 55px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 56px;
+  padding-right: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__main {
+    flex-direction: row;
+    gap: 400px;
+    padding-left: 0;
+    padding-right: 115px;
+  }
 }

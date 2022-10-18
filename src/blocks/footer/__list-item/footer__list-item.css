@@ -1,13 +1,16 @@
 .footer__list-item {
   list-style: none;
   font-family: 'Formular';
-  font-style: normal;
-  font-weight: 300;
   font-size: 18px;
   line-height: 23px;
-  /* identical to box height, or 128% */
-  font-feature-settings: 'ss01' on;
-  color: #242424;
+  color: var(--main-text-color);
   margin-bottom: 13px;
   letter-spacing: 1.3px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__list-item {
+    font-size: 14px;
+    line-height: 19px;
+  }
 }

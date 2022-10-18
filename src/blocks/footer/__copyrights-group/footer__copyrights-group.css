@@ -4,8 +4,14 @@
 }
 
 .footer__copyrights-group_one {
-  gap: 10px;
+  gap: 29px;
   margin-bottom: 59px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__copyrights-group_one {
+    flex-direction: row;
+  }
 }
 
 .footer__copyrights-group_two {
@@ -19,3 +25,15 @@
   display: flex;
   flex-direction: column;
 }
+
+.footer__copyrights-group_two_and_three {
+  display: flex;
+  gap: 30px
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__copyrights-group_two_and_three {
+    padding-right: 75px;
+  }
+}
+

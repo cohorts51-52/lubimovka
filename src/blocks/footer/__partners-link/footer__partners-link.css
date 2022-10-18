@@ -1,3 +1,7 @@
 .footer__partners-link {
+  margin-right: 32px;
+}
 
+.footer__partners-link:hover {
+ opacity: .6;
 }
