@@ -1,0 +1,48 @@
+.footer__partners-link-image_type_one {
+  width: autо;
+  height: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__partners-link-image_type_one {
+    width: 91px;
+    height: 34px;
+  }
+}
+
+.footer__partners-link-image_type_two {
+  width: autо;
+  height: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__partners-link-image_type_two {
+    width: 88px;
+    height: 31px;
+  }
+}
+
+.footer__partners-link-image_type_three {
+  width: autо;
+  height: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__partners-link-image_type_three {
+    width: 66px;
+    height: 37px;
+  }
+}
+
+.footer__partners-link-image_type_four {
+  width: autо;
+  height: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__partners-link-image_type_four {
+    width: 97px;
+    height: 36px;
+  }
+}
+

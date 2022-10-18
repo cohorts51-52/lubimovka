@@ -8,4 +8,12 @@
   line-height: 22px;/* or 138% */
   color: #242424;
   opacity: 0.6;
+  letter-spacing: 1.07px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__address-text {
+    line-height: 18px;
+    letter-spacing: 1px;
+  }
 }

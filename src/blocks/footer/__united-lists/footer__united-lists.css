@@ -3,3 +3,9 @@
   gap: 51px;
   width: 278px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__united-lists {
+    gap: 102px;
+  }
+}
