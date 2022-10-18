@@ -3,3 +3,10 @@
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+
+@media (max-width: 765px) {
+  .partnership__article {
+    background-position: 0 10px;
+
+  }
+}
