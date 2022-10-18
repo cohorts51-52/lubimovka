@@ -9,3 +9,11 @@
   max-width: 516px;
   margin: 26px 0 0 27px;
 }
+
+@media (max-width: 765px) {
+  .partnership__title {
+    font-size: 28px;
+    line-height: 32px;
+    margin: 36px 0 0 28px;
+  }
+}

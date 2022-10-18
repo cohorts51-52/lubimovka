@@ -10,3 +10,9 @@
   color: var(--main-text-color);
   margin: 33px 0 0 auto;
 }
+
+@media (max-width: 765px) {
+  .partnership__span {
+    margin: 16px 0 0 31px;
+  }
+}
