@@ -4,9 +4,8 @@
   background-position: 0 0;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .partnership__article {
     background-position: 0 10px;
-
   }
 }
