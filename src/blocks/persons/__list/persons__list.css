@@ -32,7 +32,12 @@
 
 @media (max-width: 1000px) {
   .persons__list {
-    margin-top: 24px;
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .persons__list {
+    margin-top: 24px;
   }
 }
