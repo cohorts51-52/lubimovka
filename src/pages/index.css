@@ -2,6 +2,11 @@
 @import url("../vendor/fonts/fonts.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
+@import url("../blocks/videos/videos.css");
+@import url("../blocks/one-video/one-video.css");
+@import url("../blocks/video/video.css");
+@import url("../blocks/two-videos/two-videos.css");
+@import url("../blocks/three-videos/three-videos.css");
 @import url("../blocks/footer/footer.css");
 
 @import url("../blocks/button-link/button-link.css");
