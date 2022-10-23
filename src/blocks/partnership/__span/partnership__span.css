@@ -1,18 +1,4 @@
 .partnership__span {
   display: block;
-  max-width: 459px;
-  font-family: 'Neue Machina';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.01em;
-  color: var(--main-text-color);
-  margin: 33px 0 0 auto;
-}
-
-@media (max-width: 768px) {
-  .partnership__span {
-    margin: 16px 0 0 31px;
-  }
+  margin: 25px 0 0 0;
 }
