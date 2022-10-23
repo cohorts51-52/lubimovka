@@ -1,0 +1,9 @@
+.video__button-icon {
+  fill: var(--main-text-color);
+  transition: all .5s ease-in;
+}
+
+.video:hover .video__button-icon,
+.video__button:focus .video__button-icon {
+  fill: var(--main-bg-color);
+}
