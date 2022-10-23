@@ -3,13 +3,13 @@
   width: 73.7%;
   justify-self: end;
   margin-bottom: 72px;
-  margin-left: 24px;
+  margin-right: 24px;
 }
 
 @media screen and (min-width: 768px) {
   .about-project__text {
     justify-self: center;
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 
