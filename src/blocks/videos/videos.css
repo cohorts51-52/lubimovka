@@ -1,0 +1,6 @@
+@import url("./__title/videos__title.css");
+@import url("./__text/videos__text.css");
+
+.videos {
+  padding-top: 57px;
+}

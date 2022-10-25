@@ -15,6 +15,11 @@
 @import url("../blocks/performance/__heading/performance__heading.css");
 @import url("../blocks/performance/__read/performance__read.css");
 @import url("../blocks/performance/__buttons/performance__buttons.css");
+@import url("../blocks/videos/videos.css");
+@import url("../blocks/one-video/one-video.css");
+@import url("../blocks/video/video.css");
+@import url("../blocks/two-videos/two-videos.css");
+@import url("../blocks/three-videos/three-videos.css");
 @import url("../blocks/footer/footer.css");
 
 @import url("../blocks/button-link/button-link.css");
