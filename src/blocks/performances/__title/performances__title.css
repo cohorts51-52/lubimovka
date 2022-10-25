@@ -1,4 +1,4 @@
-.performances__heading {
+.performances__title {
   padding-left: 24px;
   font-family: 'Neue Machina';
   font-style: normal;
@@ -9,9 +9,9 @@
   letter-spacing: -0.01em;
 }
 @media screen and (min-width: 768px) {
-  .performances__heading {
-    margin: 0 0 0 23%;
-    max-width: 480px;
+  .performances__title {
+    margin: 0 0 75px 23%;
+    max-width: 430px;
     font-size: 40px;
     line-height: 1;
   }

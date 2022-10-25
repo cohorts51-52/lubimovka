@@ -1,0 +1,7 @@
+@media screen and (min-width: 916px) {
+  .performances__title_custom {
+    margin: 0 0 0 0;
+    padding: 0;
+    max-width: 400px;
+  }
+}

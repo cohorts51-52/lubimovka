@@ -1,14 +1,16 @@
 .performances__group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+}
+@media screen and (min-width: 550px) {
+  .performances__group {
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .performances__group {
-    margin: 75px auto 183px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    grid-template-columns: repeat(auto-fit, minmax(415px, 450px));
+    row-gap: 70px;
   }
 }

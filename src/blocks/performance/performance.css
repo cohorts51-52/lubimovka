@@ -1,33 +1,21 @@
 .performance {
+  box-sizing: border-box;
   padding: 32px 24px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   gap: 40px;
-  position: relative;
+  border-bottom: 1px solid var(--main-text-color);
 }
-.performance::after {
-  position: absolute;
-  bottom: 0;
-  left: -24px;
-  content:"";
-  height: 1px;
-  width: 415px;
-  background-color: var(--main-text-color);
-}
-@media screen and (min-width: 847px) {
+@media screen and (min-width: 916px) {
   .performance {
-    max-width: 370px;
+    padding: 0 25px 0 30px;
+    max-width: 450px;
     gap: 16px;
+    border-bottom: none;
+    border-right: 1px solid var(--main-text-color);
   }
-  .performance::after {
-    left: auto;
-    top: 32px;
-    right: 0;
-    height: 268px;
-    width: 1px;
-  }
-  .performance:last-child::after {
-    height: 0;
-    width: 0;
+  .performance:last-child {
+    border-right: none;
   }
 }
