@@ -30,9 +30,16 @@
   color: var(--main-text-color);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .footer {
     flex-direction: row;
     gap: 82px;
   }
 }
+
+/* @media screen and (min-width: 1440px) {
+  .footer {
+    flex-direction: row;
+    gap: 82px;
+  }
+} */

@@ -4,6 +4,12 @@
   width: 278px;
 }
 
+@media screen and (min-width: 1024px) {
+  .footer__united-lists {
+    gap: 70px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .footer__united-lists {
     gap: 102px;

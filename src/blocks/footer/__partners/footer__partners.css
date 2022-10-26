@@ -8,7 +8,7 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .footer__partners {
     padding-bottom: 0px;
     padding-top: 48px;
@@ -16,3 +16,12 @@
     flex-direction: row;
   }
 }
+/*
+@media screen and (min-width: 1440px) {
+  .footer__partners {
+    padding-bottom: 0px;
+    padding-top: 48px;
+    border-bottom: hidden;
+    flex-direction: row;
+  }
+} */

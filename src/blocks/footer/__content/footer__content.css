@@ -6,7 +6,7 @@
     "c";
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .footer__content {
     grid-template:
       "b"
@@ -14,3 +14,13 @@
       "c";
   }
 }
+
+/*
+@media screen and (min-width: 1440px) {
+  .footer__content {
+    grid-template:
+      "b"
+      "a"
+      "c";
+  }
+} */
