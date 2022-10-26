@@ -10,13 +10,22 @@
 @import url(./__united-lists/footer__united-lists.css);
 @import url(./__list-item/footer__list-item.css);
 @import url(./__list/footer__list.css);
+@import url(./__link-item/footer__link-item.css);
 @import url(./__partners-item/footer__partners-item.css);
 @import url(./__partners-list/footer__partners-list.css);
 @import url(./__partners-link/footer__partners-link.css);
 @import url(./__partners-link-image/footer__partners-link-image.css);
+@import url(./__partners-link-image/_type_one/footer__partners-link-image_type_one.css);
+@import url(./__partners-link-image/_type_two/footer__partners-link-image_type_two.css);
+@import url(./__partners-link-image/_type_three/footer__partners-link-image_type_three.css);
+@import url(./__partners-link-image/_type_four/footer__partners-link-image_type_four.css);
 @import url(./__partners-text/footer__partners-text.css);
 @import url(./__partners-title/footer__partners-title.css);
 @import url(./__copyrights-group/footer__copyrights-group.css);
+@import url(./__copyrights-group/_one/footer__copyrights-group_one.css);
+@import url(./__copyrights-group/_subgroup/footer__copyrights-group_subgroup.css);
+@import url(./__copyrights-group/_two/footer__copyrights-group_two.css);
+@import url(./__copyrights-group/_two_and_three/footer__copyrights-group_two_and_three.css);
 @import url(./__copyrights-link/footer__copyrights-link.css);
 @import url(./__copyrights-text/footer__copyrights-text.css);
 @import url(./__image/footer__image.css);
@@ -36,10 +45,3 @@
     gap: 82px;
   }
 }
-
-/* @media screen and (min-width: 1440px) {
-  .footer {
-    flex-direction: row;
-    gap: 82px;
-  }
-} */

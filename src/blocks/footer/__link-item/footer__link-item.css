@@ -1,0 +1,9 @@
+.footer__link-item {
+ text-decoration: none;
+ color: var(--main-text-color);
+}
+
+.footer__link-item:hover {
+  text-decoration: underline;
+
+ }

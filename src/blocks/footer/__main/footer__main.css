@@ -11,8 +11,7 @@
 @media screen and (min-width: 1024px) {
   .footer__main {
     flex-direction: row;
-    gap: calc(100% - 686px); /*740*/
-    /* padding-left: 0; */
+    gap: calc(100% - 686px);
     padding-right: 100px;
     margin-left: -225px;
     padding-top: 50px;
@@ -21,9 +20,7 @@
 
 @media screen and (min-width: 1440px) {
   .footer__main {
-    /* flex-direction: row; */
     gap: 400px;
-    /* padding-left: 0; */
     padding-right: 115px;
     margin-left: 0px;
     padding-top: 0;

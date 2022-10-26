@@ -31,8 +31,5 @@
 @media screen and (min-width: 1440px) {
   .footer__partners-list {
    grid-template-columns: repeat(4, 113px);
-   /* grid-template-rows: repeat(1, 96px);
-   align-items: flex-start;
-   padding-left: 71px;*/
   }
 }
