@@ -6,3 +6,14 @@
   color: var(--main-text-color);
   letter-spacing: 1.15px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__copyrights-link {
+    text-decoration-line: none;
+  }
+}
+
+.footer__copyrights-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
