@@ -32,14 +32,22 @@
 
 .footer {
   display: flex;
+  position: relative;
   flex-direction: column;
   background-color: var(--main-bg-color);
-  width: 414px;
+  width: 100%;
   gap: 0;
   color: var(--main-text-color);
 }
 
 @media screen and (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    gap: 62px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .footer {
     flex-direction: row;
     gap: 82px;

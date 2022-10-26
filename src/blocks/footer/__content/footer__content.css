@@ -1,4 +1,6 @@
 .footer__content {
+  position: relative;
+
   display: grid;
   grid-template:
     "a"
@@ -8,6 +10,8 @@
 
 @media screen and (min-width: 1024px) {
   .footer__content {
+    width: calc(100% - 174.81px);
+
     grid-template:
       "b"
       "a"

@@ -1,6 +1,5 @@
 .footer__partners {
   grid-area: b;
-  width: 100%;
   border-bottom: 1px solid var(--main-text-color);
   padding-bottom: 48px;
   padding-top: 71px;

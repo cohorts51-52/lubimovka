@@ -9,11 +9,14 @@
   color: #242424;
   opacity: 0.6;
   letter-spacing: 1.07px;
+  margin-bottom: 56px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .footer__address-text {
     line-height: 18px;
     letter-spacing: .1px;
+    width: 170px;
+    margin-bottom: 0;
   }
 }
