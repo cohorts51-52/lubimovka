@@ -5,11 +5,11 @@
 @import url('./__button/card-piece__button.css');
 
 .card-piece {
-  min-width: 240px;
+  max-width: 240px;
 }
 
 @media (max-width:1000px) {
   .card-piece {
-    min-width: 244px;
+    max-width: 244px;
   }
 }
