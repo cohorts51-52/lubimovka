@@ -1,6 +1,6 @@
 .plays__cards {
   display: flex;
-  /* gap: 30px; */
+  min-width: 0;
   padding: 0;
   margin: 48px 0 0 0;
   list-style: none;

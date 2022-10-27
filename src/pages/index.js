@@ -31,17 +31,5 @@ new Swiper('.three-video-slider', {
 
 new Swiper('.cards-piece-slider ', {
   spaceBetween:30,
-  breakpoints: {
-    414: {
-      slidesPerView: 1.2,
-      slidesPerGroup: 1
-    },
-    768: {
-      slidesPerView: 3,
-      slidesPerGroup: 2
-    },
-    1024: {
-      slidesPerView: 5,
-    }
-  },
+  slidesPerView:'auto'
 })
