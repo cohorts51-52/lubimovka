@@ -1,0 +1,13 @@
+@import url('./__list/persons__list.css');
+@import url('./__title/persons__title.css');
+
+.persons {
+  margin: 123px auto 0;
+}
+
+@media (max-width: 1000px) {
+  .persons {
+    margin-top: 100px;
+    padding: 0 0 0 25px;
+  }
+}

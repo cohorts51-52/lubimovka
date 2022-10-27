@@ -28,3 +28,8 @@ new Swiper('.three-video-slider', {
     }
   },
 })
+
+new Swiper('.persons-swiper', {
+  spaceBetween: 30,
+  slidesPerView:'auto'
+})

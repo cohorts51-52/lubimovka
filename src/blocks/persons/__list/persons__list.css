@@ -1,0 +1,15 @@
+.persons__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .persons__list {
+    justify-content: space-between;
+    ;
+  }
+}
