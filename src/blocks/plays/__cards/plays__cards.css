@@ -1,0 +1,14 @@
+.plays__cards {
+  display: flex;
+  min-width: 0;
+  padding: 0;
+  margin: 48px 0 0 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+@media (max-width:1000px) {
+  .plays__cards {
+    margin: 32px 0 0 0;
+  }
+}

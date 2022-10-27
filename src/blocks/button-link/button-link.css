@@ -1,4 +1,4 @@
-.button-link{
+.button-link {
   box-sizing: border-box;
   display: inline-block;
   min-width: 115px;
@@ -27,7 +27,7 @@
   background-color: inherit;
   top: 0;
   left: 0;
-  content:"";
+  content: "";
   display: block;
   background-color: #242424;
   width: 100%;
