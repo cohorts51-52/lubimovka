@@ -28,3 +28,25 @@ new Swiper('.three-video-slider', {
     }
   },
 })
+
+const personSwiper = new Swiper('.persons-swiper', {
+  breakpoints: {
+    414: {
+      slidesPerView: 1.5,
+    },
+    500: {
+      slidesPerView: 2.0,
+    },
+    700: {
+      slidesPerView: 2.25,
+    },
+    900: {
+      slidesPerView:3,
+    },
+    1024: {
+      slidesPerView: 4,
+    }
+  },
+})
+
+personSwiper.updateSize()

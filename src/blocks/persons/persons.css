@@ -8,6 +8,6 @@
 @media (max-width: 1000px) {
   .persons {
     margin-top: 100px;
-    padding: 0 25px 0 25px;
+    padding: 0 0 0 25px;
   }
 }

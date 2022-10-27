@@ -1,0 +1,10 @@
+.persons-swiper {
+  overflow: hidden;
+  margin: 58px auto 0;
+}
+
+@media (max-width: 768px) {
+  .persons-swiper {
+    margin-top: 24px;
+  }
+}
