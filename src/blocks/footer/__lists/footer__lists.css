@@ -1,0 +1,35 @@
+.footer__lists {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__lists {
+    flex-direction: row;
+    gap: 50px
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__lists {
+    gap: 0px;
+    width: 500px;
+
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .footer__lists {
+    gap: 45px;
+    width: 554px;
+
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__lists {
+    gap: 80px;
+  }
+}

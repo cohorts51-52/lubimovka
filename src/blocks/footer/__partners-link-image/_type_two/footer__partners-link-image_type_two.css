@@ -1,0 +1,11 @@
+.footer__partners-link-image_type_two {
+  width: autо;
+  height: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__partners-link-image_type_two {
+    width: 88px;
+    height: 31px;
+  }
+}

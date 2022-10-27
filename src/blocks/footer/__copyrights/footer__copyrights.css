@@ -1,0 +1,23 @@
+.footer__copyrights {
+  grid-area: c;
+  padding-top: 32px;
+  padding-left: 27px;
+  padding-bottom: 74px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__copyrights {
+    flex-direction: row;
+    padding-top: 35px;
+    padding-left: 0;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__copyrights {
+    margin-left: 0;
+  }
+}

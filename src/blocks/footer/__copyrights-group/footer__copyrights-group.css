@@ -1,0 +1,4 @@
+.footer__copyrights-group {
+  display: flex;
+  flex-direction: column;
+}

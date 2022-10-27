@@ -1,0 +1,14 @@
+.footer__copyrights-group_two_and_three {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+}
+
+@media screen and (min-width: 768px) {
+  .footer__copyrights-group_two_and_three {
+    padding-right: 75px;
+    flex-direction: row;
+    gap: 30px
+  }
+}

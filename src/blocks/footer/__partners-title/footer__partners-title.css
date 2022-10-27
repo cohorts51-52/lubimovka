@@ -1,0 +1,17 @@
+.footer__partners-title {
+  opacity: 0;
+  font-size: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__partners-title {
+    opacity: 1;
+    font-family: 'Formular';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--main-text-color);
+  }
+}
