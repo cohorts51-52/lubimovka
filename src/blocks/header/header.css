@@ -1,3 +1,35 @@
-.header {
+@import url("./__logo/header__logo.css");
+@import url('./__items/header__items.css');
+@import url("./__menu/header__menu.css");
+@import url("./__menu-list/header__menu-list.css");
+@import url("./__menu-link/header__menu-link.css");
+@import url("./__social-list/header__social-list.css");
+@import url("./__social-link/header__social-link.css");
+@import url("./__button/header__button.css");
+@import url("./__menu-mobile/header__menu-mobile.css");
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px 0 30px;
+  border-bottom: 1px solid var(--main-text-color);
+  min-height: 54px;
+  background-color: var(--main-bg-color);
+}
+
+@media (max-width: 1320px) {
+  .header {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 30px 24px 0 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 19px;
+    border: none;
+  }
 }

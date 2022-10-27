@@ -1,0 +1,25 @@
+.header__social-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--main-text-color);
+  font-size: 16px;
+  margin: 0 5px;
+  line-height: 18px;
+  text-transform: lowercase;
+  transition: all .6s ease-in-out;
+  border: 2px solid transparent;
+  padding: 3px 8.5px;
+}
+
+.header__social-link:hover {
+  opacity: .7;
+  border-left: 2px solid var(--main-text-color);
+  border-right: 2px solid var(--main-text-color);
+  border-radius: 30%;
+}
+
+@media (max-width: 1170px) {
+  .header__social-link {
+    margin: 0 5px 0 0;
+  }
+}

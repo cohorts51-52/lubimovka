@@ -1,0 +1,43 @@
+.header__button {
+  margin: 0 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  max-width: 164px;
+  padding: 3px 8.5px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  transition: all .6s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.header__button:before {
+  content: url('../../../images/headerIconPlus.svg');
+  height: 26px;
+  padding-right: 10px;
+}
+
+.header__button:hover {
+  opacity: .7;
+  border-left: 2px solid var(--main-text-color);
+  border-right: 2px solid var(--main-text-color);
+  border-radius: 30%;
+}
+
+@media (max-width: 1170px) {
+  .header__button {
+    padding: 3px;
+  }
+
+  .header__button:before {
+    padding-right: 0;
+  }
+
+  .header__button:hover {
+    border-radius: 30%;
+  }
+}

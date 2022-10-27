@@ -28,3 +28,32 @@ new Swiper('.three-video-slider', {
     }
   },
 })
+
+const buttonBurgerMenu = document.querySelector('.header__menu-mobile');
+const popup = document.querySelector('.popup');
+
+function openPopup(){
+  popup.classList.add('popup_active');
+  document.addEventListener('click', handleClickIconCLose);
+  document.addEventListener('keyup', handleEscClose);
+}
+
+function closePopup() {
+  popup.classList.remove('popup_active');
+  document.addEventListener('click', handleClickIconCLose);
+  document.removeEventListener('keyup', handleEscClose);
+}
+
+function handleClickIconCLose (e) {
+  if (e.target.classList.contains('popup') || e.target.classList.contains('popup__icon-close')) {
+    closePopup();
+  };
+}
+
+function handleEscClose (event) {
+  if (event.key === 'Escape') {
+    closePopup();
+  }
+}
+
+buttonBurgerMenu.addEventListener('click', openPopup)

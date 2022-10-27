@@ -1,0 +1,31 @@
+.header__menu-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 8.5px;
+  font-size: 16px;
+  letter-spacing: .8px;
+  line-height: 22px;
+  cursor: pointer;
+  color: var(--main-text-color);
+  transition: all .6s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.header__menu-link:hover {
+  opacity: .7;
+  border-left: 2px solid var(--main-text-color);
+  border-right: 2px solid var(--main-text-color);
+  border-radius: 30%;
+}
+
+@media (max-width: 1170px) {
+  .header__menu-link {
+    padding: 3px;
+  }
+
+  .header__menu-link:hover {
+    opacity: .7;
+    border-radius: 30%;
+  }
+}

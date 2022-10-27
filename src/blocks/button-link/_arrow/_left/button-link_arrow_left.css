@@ -1,13 +1,13 @@
-.button-link_arrow_left{
+.button-link_arrow_left {
   padding: 9px 25px 9px 15px;
-  border-bottom: 1px solid #242424;
-  border-right: 1px solid #242424;
+  border-bottom: 1px solid var(--main-text-color);
+  border-right: 1px solid var(--main-text-color);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 100%;
 }
 
 .button-link_arrow_left::before {
-  top:28%;
+  top: 28%;
   right: 0;
 }

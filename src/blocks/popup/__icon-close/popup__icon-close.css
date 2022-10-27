@@ -1,0 +1,17 @@
+.popup__icon-close {
+  position: absolute;
+  top: -40px;
+  right: 5px;
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  color: white;
+  opacity: 1;
+  /*   transition: all .5s linear;
+ */
+}
+
+.popup__icon-close:hover {
+  opacity: .8;
+}
