@@ -4,6 +4,7 @@
 .card-person {
   box-sizing: border-box;
   max-width: 210px;
+  cursor: pointer;
 }
 
 .card-person:first-of-type {
