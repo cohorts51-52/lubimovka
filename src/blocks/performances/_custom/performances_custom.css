@@ -1,5 +1,9 @@
+.performances_custom {
+  margin-bottom: 100px;
+}
 @media screen and (min-width: 916px) {
   .performances_custom {
+    margin-bottom: 93px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
