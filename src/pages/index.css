@@ -10,3 +10,5 @@
 @import url("../blocks/footer/footer.css");
 
 @import url("../blocks/button-link/button-link.css");
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/_active/popup_active.css');

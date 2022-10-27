@@ -28,3 +28,13 @@ new Swiper('.three-video-slider', {
     }
   },
 })
+
+const buttonBurgerMenu = document.querySelector('.header__menu-mobile');
+const popup = document.querySelector('.popup');
+
+
+
+buttonBurgerMenu.addEventListener('click', ()=>{
+  console.log('открой бургер');
+  popup.classList.add('popup_active');
+})
