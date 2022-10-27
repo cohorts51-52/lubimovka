@@ -13,3 +13,9 @@
 @import url("../blocks/button-link/_arrow/button-link_arrow.css");
 @import url('../blocks/button-link/_arrow/_left/button-link_arrow_left.css');
 @import url('../blocks/button-link/_arrow/_right/button-link_arrow_right.css');
+
+@import url('../blocks/about-project/about-project.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/about-project/__title/about-project__title.css');
+@import url('../blocks/text/text.css');
+@import url('../blocks/about-project/__text/about-project__text.css');

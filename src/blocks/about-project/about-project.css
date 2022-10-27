@@ -1,0 +1,9 @@
+.about-project {
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  justify-items: start;
+  row-gap: 17px;
+  background-color: var(--main-accent-color);
+}
