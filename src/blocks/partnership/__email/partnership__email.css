@@ -1,0 +1,10 @@
+.partnership__email {
+  color: var(--main-text-color);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all .5s linear;
+}
+
+.partnership__email:hover {
+  opacity: .6;
+}

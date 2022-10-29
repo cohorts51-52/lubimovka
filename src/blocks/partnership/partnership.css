@@ -1,0 +1,19 @@
+@import url('./__title/partnership__title.css');
+@import url('./__article/partnership__article.css');
+@import url('./__paragraph/partnership__paragraph.css');
+@import url('./__paragraph/_email/partnership__paragraph_email.css');
+@import url('./__email/partnership__email.css');
+
+.partnership {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 232px 0 25px;
+  margin-top: 74px;
+}
+
+@media (max-width: 768px) {
+  .partnership {
+    padding: 25px;
+    margin-top: 50px;
+  }
+}
