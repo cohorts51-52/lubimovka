@@ -7,6 +7,9 @@
 @import url("../blocks/video/video.css");
 @import url("../blocks/two-videos/two-videos.css");
 @import url("../blocks/three-videos/three-videos.css");
+
+@import url("../blocks/photos/photos.css");
+
 @import url("../blocks/footer/footer.css");
 
 @import url("../blocks/button-link/button-link.css");

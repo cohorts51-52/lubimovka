@@ -1,0 +1,8 @@
+.photos__item {
+  width: 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+.photos__item:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
