@@ -1,0 +1,21 @@
+.lubimovka-more__subtitle {
+  font-family: 'Neue Machina';
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  max-width: 304px;
+  margin: 0;
+  padding: 0 0 0 86px;
+  grid-area: subtitle;
+}
+
+@media screen and (min-width: 1024px) {
+  .lubimovka-more__subtitle {
+    font-size: 28px;
+    line-height: 32px;
+    max-width: 420px;
+    padding: 0;
+    align-self: start;
+    justify-self: end;
+  }
+}
